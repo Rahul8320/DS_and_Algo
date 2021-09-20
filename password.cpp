@@ -3,8 +3,8 @@ using namespace std;
 
 void solution(){
     bool check = false;
-    string arr[] ={1234567890@#%&?QWERTYUIOPLKJHGFDSAZXCVBNM};
-    int len = arr.length();
+    string arr[41] ={"1","2","3","4","5","6","7","8","9","0","@","#","%","&","?","Q","W","E","R","T","Y","U","I","O","P","L","K","J","H","G","F","D","S","A","Z","X","C","V","B","N","M"};
+    int len = 41;
     string s;
     cin >> s;
     int n = s.length();
